@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ПР7_Четоркин" id="id-f79f9ab89b7f4bd6b1b45566b57f5274" version="5.0.0">
+  <folder name="Strategy" id="id-91b836262d2448b7a8a78d9c678b81ed" type="strategy">
+    <element xsi:type="archimate:ValueStream" name="Продажа товаров" id="id-4d66d6870f194f60bcbbfe29172eeb3a"/>
+    <element xsi:type="archimate:ValueStream" name="Заключение персонализированных заказов" id="id-9dda7e4ab6d644ccaffea372c7b21db0"/>
+    <element xsi:type="archimate:ValueStream" name="Value Stream" id="id-f763d3658c7844e69b641a7586ca863b"/>
+    <element xsi:type="archimate:Resource" name="Станки" id="id-7b73a50f5618446c90d0807f95a5edfc"/>
+    <element xsi:type="archimate:Resource" name="Запчасти для машин и станков" id="id-a90feec72db843dc92f2cd6795119dad"/>
+    <element xsi:type="archimate:Resource" name="Работники предприятия" id="id-4dfa2dc18d62445e9aa69ef3518e5029"/>
+    <element xsi:type="archimate:ValueStream" name="Зарплата сотрудникам" id="id-2e0fd08de20a4555a56c3b3b2c48bd28"/>
+    <element xsi:type="archimate:ValueStream" name="Закупка сырья" id="id-f19be9a44201405c8c34ea17e6a5ab8f"/>
+    <element xsi:type="archimate:ValueStream" name="Покупка технологии и расходников" id="id-973ca3f678f142aaaa451c32ae43615d"/>
+    <element xsi:type="archimate:ValueStream" name="Закупка средств производства" id="id-a1a0f6bea11a49589b2fd9bc43978818"/>
+    <element xsi:type="archimate:ValueStream" name="Налоги и пошлины на международной перевозке" id="id-14cc86f891dc441586849866442eb53c"/>
+  </folder>
+  <folder name="Business" id="id-15ac54d6df344b7bbcae8bcf9e261431" type="business">
+    <element xsi:type="archimate:BusinessActor" name="Автосервисы и автомагазины" id="id-0bbc9aa437974d478a5495b570da646a"/>
+    <element xsi:type="archimate:BusinessActor" name="Промышленные предприятия" id="id-2d1be4a6c8574efabcc0f009bf35bed7"/>
+    <element xsi:type="archimate:BusinessActor" name="Транспортные компании" id="id-832bfcaffaaa481ca5762f0a08a63c7e"/>
+    <element xsi:type="archimate:BusinessActor" name="Оптовики" id="id-d23bb4b7572b40b7862db686bb110eb5"/>
+    <element xsi:type="archimate:BusinessActor" name="Промышленные предприятия (copy)" id="id-058141ca03154ab89b72f2968301314e"/>
+    <element xsi:type="archimate:BusinessActor" name="Автосервисы и автомагазины (copy)" id="id-a5450b6d51e4430fa310f563cd041b0f"/>
+    <element xsi:type="archimate:BusinessActor" name="Оптовики (copy)" id="id-5c1c1fe1fa6b426aa6dc50ca449e4ae0"/>
+    <element xsi:type="archimate:BusinessActor" name="Транспортные компании (copy)" id="id-6ddb0996c806422cbde151419ebc50e0"/>
+    <element xsi:type="archimate:BusinessInterface" name="Сайт и реклама" id="id-520ba19a820440a98f4c487933e3ffdd"/>
+    <element xsi:type="archimate:BusinessInterface" name="Выставки" id="id-6c94ee5558604cac88a8371c4c87e4ec"/>
+    <element xsi:type="archimate:BusinessInterface" name="Консультации и техподдержка" id="id-0af6366ec9e84c299a480532077eeada"/>
+    <element xsi:type="archimate:BusinessInterface" name="Business Interface (copy)" id="id-4cbc0a871dcb42089363fa04d116955b"/>
+    <element xsi:type="archimate:BusinessService" name="Сервис доставки оборудования и продукции" id="id-284aafd88b2a4191b1e7d74975119015"/>
+    <element xsi:type="archimate:BusinessService" name="Сервис заказного производства" id="id-9fad8e156b464e34be8cad1b4044a109"/>
+    <element xsi:type="archimate:BusinessInteraction" name="Персональная поддержка" id="id-908407b665ce45f9ac2a4a9dcae6ca0b"/>
+    <element xsi:type="archimate:BusinessInteraction" name="Обратная связь" id="id-60477db4e0d34bd88b454cb9c1b7b186"/>
+    <element xsi:type="archimate:BusinessInteraction" name="Совместное создание" id="id-e813be1d14cb40bbaa210d3a7e8e2de0"/>
+    <element xsi:type="archimate:BusinessInteraction" name="Business Interaction (copy)" id="id-e8ca3d32ea48419f978114b694e3cfd9"/>
+    <element xsi:type="archimate:BusinessInteraction" id="id-cbee5c4e22cf4a2f8468e1e7e991ec86"/>
+    <element xsi:type="archimate:BusinessInteraction" name="Удержание посстоянных клиентов" id="id-d30d3b6858e342539c50db5ccc62d3b3"/>
+    <element xsi:type="archimate:BusinessProcess" name="Перепродажа сырья" id="id-1ad9ac8e06814b34bb79b76348ba3cab"/>
+    <element xsi:type="archimate:BusinessProcess" name="Перепродажа изделий" id="id-a7da556e6c9347538d201503f81c2ca2"/>
+    <element xsi:type="archimate:BusinessProcess" name="Продажа продукции собственной марки" id="id-aa7754b479dc4a35a2a7837ac087083d"/>
+    <element xsi:type="archimate:Product" name="Абразивные расходники" id="id-b7f6870c064844f6bfc1e2230bfdb236"/>
+    <element xsi:type="archimate:Product" name="Станки" id="id-1b2929eb3baf4f1aa4a03b21bc7012ab"/>
+    <element xsi:type="archimate:Product" name="Запчасти для станков и расходники" id="id-67316b08765c4f2d882f7ac521bd7286"/>
+    <element xsi:type="archimate:Product" name="Запчасти для машин и расходники" id="id-ba43ab29c24b47728ae459580454e32f"/>
+    <element xsi:type="archimate:BusinessActor" name="Поставщики запчастей станков и абразивного материала (Китай)" id="id-4a7c483249724dd7a6e2f386d10b3705"/>
+    <element xsi:type="archimate:BusinessActor" name="Поставщики запчастей станков и абразивного материала (Турция)" id="id-86c9b01adef94ecd906f0b5b89adfff3"/>
+    <element xsi:type="archimate:BusinessActor" name="Поставщики запчастей станков и абразивного материала (Россия)" id="id-91f518e498ff47d1a42ad0c8db133f10"/>
+    <element xsi:type="archimate:BusinessActor" name="Поставщики запчастей станков и абразивного материала (Германия)" id="id-55b0fa9088cf42b8ac4097195180e476"/>
+    <element xsi:type="archimate:BusinessActor" name="Фирма производства собственной продукции БИ-ТУ-БИ АБРАЗИВ" id="id-32d869a14722487f89c4b56e1258c5f3"/>
+  </folder>
+  <folder name="Application" id="id-0a9524a3a3304fa9aa02fa220da3946f" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-a8e94c35ebc44dc5a824ffa1f037d241" type="technology"/>
+  <folder name="Motivation" id="id-f270a86f680e450bab49f65e58a85edf" type="motivation">
+    <element xsi:type="archimate:Value" name="Широкий ассортимент товаров" id="id-1964f2f934cf42c1b0dbfc201f832e68"/>
+    <element xsi:type="archimate:Value" name="Оптовые поставки и логистика" id="id-71317ddc899c484d9373de6ec0d402d2"/>
+    <element xsi:type="archimate:Value" name="Консультации и поддержка" id="id-dfd2d10156cc4679b42fdfcb93b9f567"/>
+    <element xsi:type="archimate:Value" name="Персонализированные заказы" id="id-7fb42ce3c1134100880186c215a82256"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-7c697c80fded4cd5b0bef2fa2282e6dd" type="implementation_migration"/>
+  <folder name="Other" id="id-f51dc74337f14f8ab309f2e93de84bea" type="other">
+    <element xsi:type="archimate:Grouping" name="Grouping" id="id-bfc16b228b214d9f8314358f2da842f7"/>
+  </folder>
+  <folder name="Relations" id="id-e38164cbdaca4c3ea926442237ac86d5" type="relations"/>
+  <folder name="Views" id="id-275837d4ac0b4b43b39a416f4e509357" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Бизнес" id="id-be7a547f196e4c87a500df2664bef1b7">
+      <child xsi:type="archimate:Group" id="id-53392e7986444f52a8c4b149e723bf8d" name="Потребительские сегменты" textAlignment="1">
+        <bounds x="1272" y="36" width="193" height="417"/>
+        <child xsi:type="archimate:DiagramObject" id="id-f65e9c2dc5bb4d349630e78e206c92af" archimateElement="id-2d1be4a6c8574efabcc0f009bf35bed7">
+          <bounds x="36" y="168" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8c47c55ba86c41b2b443308e550f62a7" archimateElement="id-0bbc9aa437974d478a5495b570da646a">
+          <bounds x="36" y="28" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2e6fa67318814044af5535385441d462" archimateElement="id-d23bb4b7572b40b7862db686bb110eb5">
+          <bounds x="36" y="240" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6cca96c459214009afd3fc24ab65c014" archimateElement="id-832bfcaffaaa481ca5762f0a08a63c7e">
+          <bounds x="36" y="96" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-acb9afcdf25e458597166da8e48a7f85" name="Ценностные предложения" textAlignment="1">
+        <bounds x="552" y="36" width="361" height="417"/>
+        <child xsi:type="archimate:DiagramObject" id="id-6b0c4a2be1f244a0ae203810835b1c64" archimateElement="id-1964f2f934cf42c1b0dbfc201f832e68">
+          <bounds x="24" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-13d9ab1d8c9440139935991e7ee4fc97" archimateElement="id-71317ddc899c484d9373de6ec0d402d2">
+          <bounds x="24" y="84" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-fdeb3eb0a8d8438fad4befd498810263" archimateElement="id-dfd2d10156cc4679b42fdfcb93b9f567">
+          <bounds x="24" y="144" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9827ef08076f4ae08fa0daace1dc24bc" archimateElement="id-7fb42ce3c1134100880186c215a82256">
+          <bounds x="24" y="204" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-eefbdcf28764443b8dea5bb8740fb0b4" archimateElement="id-284aafd88b2a4191b1e7d74975119015">
+          <bounds x="24" y="264" width="133" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c76b055f22e24358923dba30f6768656" archimateElement="id-9fad8e156b464e34be8cad1b4044a109">
+          <bounds x="24" y="348" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-055eca79419e4b81acfa58e9de74a3b6" archimateElement="id-b7f6870c064844f6bfc1e2230bfdb236">
+          <bounds x="192" y="30" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e0aa3e6a4dcb4c3e90365627d65fe420" archimateElement="id-1b2929eb3baf4f1aa4a03b21bc7012ab">
+          <bounds x="192" y="96" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-7a6230a09a6d4dd69d5115109433741a" archimateElement="id-67316b08765c4f2d882f7ac521bd7286">
+          <bounds x="192" y="168" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c9608624073247b5a68e7f25187f0aab" archimateElement="id-ba43ab29c24b47728ae459580454e32f">
+          <bounds x="192" y="240" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-bb05ab7fdd0145a08319d24466436fdf" name="Каналы Сбыта" textAlignment="1">
+        <bounds x="924" y="252" width="321" height="201"/>
+        <child xsi:type="archimate:DiagramObject" id="id-781bb04c24af44d1ae4f79f020fefa0c" archimateElement="id-520ba19a820440a98f4c487933e3ffdd">
+          <bounds x="24" y="36" width="133" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d85fe3bc65ad420baea85b52bf5a9324" archimateElement="id-6c94ee5558604cac88a8371c4c87e4ec">
+          <bounds x="180" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-be8c31ca3e9340568fd7d2ccf0608c11" archimateElement="id-0af6366ec9e84c299a480532077eeada">
+          <bounds x="24" y="108" width="133" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-bab647e6fa294201bb731a068d488401" name="Взаимоотношения с клиентами" textAlignment="1">
+        <bounds x="924" y="36" width="321" height="201"/>
+        <child xsi:type="archimate:DiagramObject" id="id-4ae501dda7c24d15864ced3377b8ad74" archimateElement="id-908407b665ce45f9ac2a4a9dcae6ca0b">
+          <bounds x="24" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5e71c7854ea24cc79f841f0ccc7b4039" archimateElement="id-60477db4e0d34bd88b454cb9c1b7b186">
+          <bounds x="180" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-7179f709a9484958929b9ac1fc3f89b0" archimateElement="id-e813be1d14cb40bbaa210d3a7e8e2de0">
+          <bounds x="24" y="120" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5450d328b63b43e79156fea7b1c2ae3d" archimateElement="id-d30d3b6858e342539c50db5ccc62d3b3">
+          <bounds x="180" y="120" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-134cedeba27746a3b8f9543d6e5e2db1" name="Потоки поступления доходов" textAlignment="1">
+        <bounds x="756" y="480" width="709" height="140"/>
+        <child xsi:type="archimate:DiagramObject" id="id-15d098834f994cf7b6dcbee7e18f5047" archimateElement="id-4d66d6870f194f60bcbbfe29172eeb3a">
+          <bounds x="24" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9e5138b451304fb983e0243fa9beb017" archimateElement="id-9dda7e4ab6d644ccaffea372c7b21db0">
+          <bounds x="168" y="48" width="193" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-b47065860be74f35abda334d2417f792" name="Структура издержек" textAlignment="1">
+        <bounds x="-24" y="480" width="769" height="140"/>
+        <child xsi:type="archimate:DiagramObject" id="id-ee71975a1549405380c97955d67dc3de" archimateElement="id-2e0fd08de20a4555a56c3b3b2c48bd28">
+          <bounds x="12" y="48" width="132" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ae22fd17d9d044d89f48b1a28bd4acde" archimateElement="id-f19be9a44201405c8c34ea17e6a5ab8f">
+          <bounds x="156" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8440924c499442ffaa8652bfd3785dc1" archimateElement="id-973ca3f678f142aaaa451c32ae43615d">
+          <bounds x="288" y="48" width="145" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-67e06fad324a4587abb57bb8995128e2" archimateElement="id-a1a0f6bea11a49589b2fd9bc43978818">
+          <bounds x="444" y="48" width="145" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8b21c68c8445423e93bb3ebcb3ab2f09" archimateElement="id-14cc86f891dc441586849866442eb53c">
+          <bounds x="600" y="39" width="145" height="73"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-9486b10d1e7e4d2baa2309b83900b731" name="Ключевые ресурсы" textAlignment="1">
+        <bounds x="192" y="252" width="321" height="201"/>
+        <child xsi:type="archimate:DiagramObject" id="id-3cbb507964524357a85c26b7f891c580" archimateElement="id-7b73a50f5618446c90d0807f95a5edfc">
+          <bounds x="24" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8388acff0f9d45b08eb68d7809b27100" archimateElement="id-a90feec72db843dc92f2cd6795119dad">
+          <bounds x="168" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-57e93816ce374fdba41879fbf4d7db04" archimateElement="id-4dfa2dc18d62445e9aa69ef3518e5029">
+          <bounds x="24" y="120" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-ae0aff2b62904375ac620fa128c82cb6" name="Ключевые виды деятельности" textAlignment="1">
+        <bounds x="192" y="36" width="321" height="201"/>
+        <child xsi:type="archimate:DiagramObject" id="id-15e3b096f3f34d8caad98ce9065c7cc2" archimateElement="id-1ad9ac8e06814b34bb79b76348ba3cab">
+          <bounds x="24" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-1315f7824df34da8baf369593c891828" archimateElement="id-a7da556e6c9347538d201503f81c2ca2">
+          <bounds x="168" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-87fee06833484b349ea6408c3f79ce86" archimateElement="id-aa7754b479dc4a35a2a7837ac087083d">
+          <bounds x="24" y="120" width="120" height="73"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-ecbaacce018944a7849a9e4817c7a0cf" name="Ключевые партнеры" textAlignment="1">
+        <bounds x="-24" y="36" width="193" height="417"/>
+        <child xsi:type="archimate:DiagramObject" id="id-e2771257863144b0b1843ff3de7309a9" archimateElement="id-4a7c483249724dd7a6e2f386d10b3705">
+          <bounds x="12" y="36" width="169" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8e5e360c77eb41e3b2012b01e6657d3c" archimateElement="id-86c9b01adef94ecd906f0b5b89adfff3">
+          <bounds x="12" y="108" width="169" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b8059e2945fa46eebeb9dc3ab332e5a1" archimateElement="id-91f518e498ff47d1a42ad0c8db133f10">
+          <bounds x="12" y="180" width="169" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f6d51e35cbe343fb9f1212b3168d8cf2" archimateElement="id-55b0fa9088cf42b8ac4097195180e476">
+          <bounds x="12" y="252" width="169" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-72a5a3d6554f4add959b89e6f555bdb0" archimateElement="id-32d869a14722487f89c4b56e1258c5f3">
+          <bounds x="12" y="324" width="169" height="55"/>
+        </child>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
